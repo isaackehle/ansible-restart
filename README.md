@@ -1,6 +1,6 @@
-# Ansible Role - sysupdate
+# Ansible Role - restart
 
-This role will handle system updates
+This role will restart a system and wait for it to come back
 
 ## Requirements
 
@@ -18,7 +18,7 @@ None
 
     - hosts: all
       roles:
-         - pgkehle.sysupdate
+         - pgkehle.restart
 
 ## Hacking
 
