@@ -1,5 +1,9 @@
 # Ansible Role - restart
 
+Restart and wait
+
+Available on Ansible Galaxy: [pgkehle.restart](https://galaxy.ansible.com/pgkehle/restart)
+
 This role will restart a system and wait for it to come back
 
 ## Requirements
