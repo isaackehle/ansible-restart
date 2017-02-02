@@ -1,6 +1,6 @@
 galaxy_info:
   author: Paul Kehle <twitter.com/pgkehle>
-  description: System Restart with Wait
+  description: Handle System Restart and wait for it to return
   company: pgkehle
   license: MIT
   min_ansible_version: 1.9
