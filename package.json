@@ -1,5 +1,5 @@
 {
-  "name": "ansible-update",
+  "name": "ansible-restart",
   "version": "0.9.9",
   "description": "Handle System Restart and wait for it to return",
   "scripts": {
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pgkehle/ansible-update.git"
+    "url": "git+https://github.com/pgkehle/ansible-restart.git"
   },
   "author": "Paul Kehle (pgkehle@gmail.com)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/pgkehle/ansible-update/issues"
+    "url": "https://github.com/pgkehle/ansible-restart/issues"
   },
-  "homepage": "https://github.com/pgkehle/ansible-update#readme",
+  "homepage": "https://github.com/pgkehle/ansible-restart#readme",
   "main": "tasks/main.yml",
   "keywords": [
     "ansible"
