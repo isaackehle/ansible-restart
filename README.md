@@ -48,3 +48,9 @@ MIT
 
 Paul Kehle  
 @pgkehle ([twitter](https://twitter.com/pgkehle), [github](https://github.com/pgkehle), [linkedin](https://www.linkedin.com/in/pgkehle))
+
+## For local development testing
+
+```bash
+rsync -av ~/code/ansible-restart/* ~/.ansible/roles/pgkehle.restart
+```

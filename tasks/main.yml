@@ -8,13 +8,9 @@
   poll: 0
   ignore_errors: true
 #  when: reboot.stdout.find('yes') != -1
-  tags:
-    - restart
-    - now
+  tags: ['reboot', 'restart']
 
 - name: restart wait
   become: false
   local_action: wait_for host={{ ansible_host | default(inventory_hostname,boolean=True) }} search_regex='OpenSSH' port=22 state='started' delay=15 timeout=300
-  tags:
-    - restart
-    - wait
+  tags: ['reboot', 'restart']
