@@ -52,5 +52,5 @@ Paul Kehle
 ## For local development testing
 
 ```bash
-rsync -av ~/code/ansible-restart/* ~/.ansible/roles/pgkehle.restart
+rsync -av --delete ~/code/ansible-restart/* ~/.ansible/roles/pgkehle.restart
 ```
