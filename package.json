@@ -1,6 +1,6 @@
 {
   "name": "ansible-restart",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Handle System Restart and wait for it to return",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
