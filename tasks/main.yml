@@ -1,12 +1,5 @@
 ---
 
-- name: restart machine
+- name: reboot machine
+  reboot: 
   become: true
-  shell: nohup bash -c 'sleep 2 && shutdown -r now "Ansible updates triggered"' &
-  async: 0
-  poll: 0
-  ignore_errors: true
-
-- name: restart wait
-  become: false
-  local_action: wait_for host={{ ansible_host | default(inventory_hostname,boolean=True) }} search_regex='OpenSSH' port=22 state='started' delay=15 timeout=300
