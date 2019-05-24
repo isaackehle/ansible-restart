@@ -1,5 +1,4 @@
 ---
-
 - name: reboot machine
-  reboot: 
+  reboot:
   become: true
