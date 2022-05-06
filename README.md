@@ -2,7 +2,7 @@
 
 Handle System Restart and wait for it to return
 
-Available on Ansible Galaxy: [pgkehle.restart](https://galaxy.ansible.com/pgkehle/restart)
+Available on Ansible Galaxy: [isaackehle.restart](https://galaxy.ansible.com/isaackehle/restart)
 
 This role will restart a system and wait for it to come back
 
@@ -22,7 +22,7 @@ None
 
     - hosts: all
       roles:
-         - pgkehle.restart
+         - isaackehle.restart
 
 ## Hacking
 
@@ -46,6 +46,5 @@ MIT
 
 ## Author Information
 
-Paul Kehle  
-@pgkehle ([twitter](https://twitter.com/pgkehle), [github](https://github.com/pgkehle), [linkedin](https://www.linkedin.com/in/pgkehle))
-
+Isaac Kehle
+@isaackehle ([twitter](https://twitter.com/isaackehle), [github](https://github.com/isaackehle), [linkedin](https://www.linkedin.com/in/isaackehle))
